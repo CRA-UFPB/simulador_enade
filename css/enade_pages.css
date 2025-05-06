@@ -1,0 +1,80 @@
+body{
+    color: white;
+    background-color:#354881;
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    color:  rgb(235, 167, 20);
+}
+#campussel{
+    text-align: center;
+}
+#enquad2{
+    color: rgb(235, 167, 20);
+   
+    
+}
+img{
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.menu{
+    margin: 0px 100px 0px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color:#354881;
+}
+.menu a{
+    font-size: 10pt;
+    color: white;
+    background-color:#0f4aa1;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease; /* Transição suave para 0.3 segundos */ 
+}
+.menu a:hover{
+    background-color: rgb(235, 167, 20);
+}
+button{
+    color: white;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid white;
+    background-color: #0f4aa1;
+    color: white;
+    transition: background-color 0.3s ease; /* Transição suave para 0.3 segundos */ 
+}
+button:hover {
+    cursor: pointer;
+  }
+.button a:hover{
+    background-color: rgb(235, 167, 20);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(235, 167, 20);
+}
+.registro{
+    color: rgb(235, 167, 20);
+    font-weight: bold;
+}
+#edicaoEnade{
+    color: rgb(235, 167, 20);
+    font-weight: bold;
+}
+#curso{
+    border-radius: 5px;
+    height: 23px;
+}
+#periodoIng{
+    border-radius: 5px;
+    height: 23px;
+    width: 65px;
+}

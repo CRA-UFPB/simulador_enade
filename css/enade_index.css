@@ -1,0 +1,77 @@
+body{
+    color: white;
+    background-color: #354881;
+    text-align: center;
+    margin-top: 20px;
+}
+header{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #e79106
+   
+}
+header img {
+    height: auto;
+    margin-top: 20px;
+}
+h1{    
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+h2{
+    font-size: 14pt;
+}
+#boas_vindas{
+    text-align: center;
+    padding: 10px;
+    color:  rgb(56, 56, 94);
+}
+#campussel{
+    text-align: center;
+}
+img{
+    width: 170px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px white);
+    
+}
+.menu{
+    margin: 0px 100px 0px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.menu a{
+    color: white;
+    background-color: rgb(56, 56, 94);
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid white;
+    transition: background-color 0.3s ease; /* Transição suave para 0.3 segundos */  
+}
+.menu a:hover{
+    background-color: rgb(235, 167, 20);
+}
+button{
+    color: white;
+    background-color: rgb(56, 56, 94);
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid white;
+    }
+.button a:hover{
+    background-color: rgb(235, 167, 20);
+}
+.boas_vindas{
+    margin: 0% 20% 0% 20%;
+    background-color: rgb(235, 167, 20);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.footer{
+    background-color:#e79106;
+}
+#footer{
+    padding: 3px;
+}
