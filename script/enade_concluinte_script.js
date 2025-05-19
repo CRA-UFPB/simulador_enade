@@ -404,7 +404,7 @@ function confirmar(){
 
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + ` <div class="menu">
     <a href="enade_ingressante.html">INGRESSANTE</a>
-    <a href="enade_index.html">PÁG. INICIAL</a>`; 
+    <a href="index.html">PÁG. INICIAL</a>`; 
     
     document.getElementById("registro").innerHTML = registro3;
 
