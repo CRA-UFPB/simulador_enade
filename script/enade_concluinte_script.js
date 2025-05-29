@@ -155,7 +155,7 @@ function confirmar(){
         "<p class='registro'>Regularidade do ENADE :ano: atribuída pelo INEP em :data:, após assinatura de Declaração de Responsabilidade da IES.<br>" +
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"
 
-    let registro2 = 
+    let registro2 =
 
         "<p class='enquadramento'>O curso não foi avaliado na edição Enade selecionada.</p><br>" +
         "<p class='registrar'>Neste caso, registrar:</p><p class='registro'>Não habilitado ao ENADE na edição :ano: em razão do calendário do ciclo avaliativo. Registro em :data:.<br></p>" +
@@ -405,7 +405,7 @@ function confirmar(){
 
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>"+ "<br>" + `<div class="menu">
         <a href="enade_concluinte.html">CONCLUINTE</a>
-        <a href="enade_index.html">PÁG. INICIAL</a>
+        <a href="index.html">PÁG. INICIAL</a>
         </div>`;
 
     document.getElementById("registro").innerHTML = registro3;
@@ -643,7 +643,7 @@ function confirmar(){
 
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + "<br>" + `<div class="menu">
         <a href="enade_concluinte.html">CONCLUINTE</a>
-        <a href="enade_index.html">PÁG. INICIAL</a>
+        <a href="index.html">PÁG. INICIAL</a>
         </div>`;
 
     document.getElementById("registro").innerHTML = registro3;
