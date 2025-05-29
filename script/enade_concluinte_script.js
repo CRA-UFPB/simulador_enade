@@ -2,7 +2,7 @@ function confirmar(){
     let cursoSEL = (curso).value;
     document.getElementById('cursoSel').innerHTML = (curso).value;
 
-    if(cursoSEL == "ADMA"){cursoSEL = ["ADMINISTRAÇÃO","1440696","Bacharelado","Presencial","Em atividade","CCAE","Mamanguape","Sim","0413A01", "Campus IV", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não"]}
+     if(cursoSEL == "ADMA"){cursoSEL = ["ADMINISTRAÇÃO","1440696","Bacharelado","Presencial","Em atividade","CCAE","Mamanguape","Sim","0413A01", "Campus IV", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "ADBA"){cursoSEL = ["ADMINISTRAÇÃO","13455","Bacharelado","Presencial","Em atividade","CCHSA","Bananeiras","Sim","0413A01", "Campus III", "Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "ADJO"){cursoSEL = ["ADMINISTRAÇÃO","13395","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Sim","0413A01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "ADPU"){cursoSEL = ["Administração Pública","1203263","Bacharelado","EAD","Em atividade","(EAD)","Diversos municípios","Sim","0413A02", "NSA", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
@@ -15,8 +15,8 @@ function confirmar(){
     else if (cursoSEL == "ARQV"){cursoSEL = ["ARQUIVOLOGIA","113621","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Não","0322A01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "AVBA"){cursoSEL = ["ARTES VISUAIS","107440","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não","0213A03", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "AVLI"){cursoSEL = ["ARTES VISUAIS","107438","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa","Sim","0114A02", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim"]}
-    else if (cursoSEL == "BIBL"){cursoSEL = ["BIBLIOTECONOMIA","13396","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Não","0322B01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
-    else if (cursoSEL == "BIOM"){cursoSEL = ["BIOMEDICINA","1399139","Bacharelado","Presencial","Em atividade","CCS","João Pessoa","Sim","0914B01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Sim","Não"]}
+    else if (cursoSEL == "BIBL"){cursoSEL = ["BIBLIOTECONOMIA","13396","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Não(!)","0322B01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
+    else if (cursoSEL == "BIOM"){cursoSEL = ["BIOMEDICINA","1399139","Bacharelado","Presencial","Em atividade","CCS","João Pessoa","Sim","0914B01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não"]}
     else if (cursoSEL == "BIOT"){cursoSEL = ["BIOTECNOLOGIA","1189062","Bacharelado","Presencial","Em atividade","Cbiotec","João Pessoa","Não","0512B02", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "CCBA"){cursoSEL = ["CIÊNCIA DA COMPUTAÇÃO","13401","Bacharelado","Presencial","Em atividade","CI","Mangabeira","Sim","0614C01", "Campus I", "Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
     else if (cursoSEL == "CCLI"){cursoSEL = ["CIÊNCIA DA COMPUTAÇÃO","98984","Licenciatura","Presencial","Em atividade","CCAE","Rio Tinto","Sim","0114C05", "Campus IV", "Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim"]}
@@ -76,7 +76,7 @@ function confirmar(){
     else if (cursoSEL == "GPTE"){cursoSEL = ["GESTÃO PÚBLICA","1125642","Tecnológico","Presencial","Em extinção","CCSA","João Pessoa","Sim","0413G12", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Sim","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "HIST"){cursoSEL = ["HISTÓRIA","13415","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa","Sim","0114H01", "Campus I", "Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim"]}
     else if (cursoSEL == "HMSC"){cursoSEL = ["HISTÓRIA - MOVIMENTOS SOCIAIS DO CAMPO","80600","Licenciatura","Presencial","Em extinção","CCHLA","João Pessoa","Sim","0114H01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
-    else if (cursoSEL == "HOTE"){cursoSEL = ["HOTELARIA","100220","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não","1015H01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
+    else if (cursoSEL == "HOTE"){cursoSEL = ["HOTELARIA","100220","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não(!)","1015H01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "JORN"){cursoSEL = ["JORNALISMO","1268219","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Sim","0321J01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "LELJ"){cursoSEL = ["LETRAS - ESPANHOL","107553","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa","Não","0115L02", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "LELE"){cursoSEL = ["Letras - Espanhol ","1261913","Licenciatura","EAD","Em atividade","(EAD)","Diversos municípios","Não","0115L02", "NSA", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
@@ -108,8 +108,8 @@ function confirmar(){
     else if (cursoSEL == "PEDC"){cursoSEL = ["PEDAGOGIA - EDUCAÇÃO DO CAMPO","122924","Licenciatura","Presencial","Em atividade","CE","João Pessoa","Sim","0113E01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
     else if (cursoSEL == "PMSC"){cursoSEL = ["PEDAGOGIA - MOVIMENTOS SOCIAIS DO CAMPO","113707","Licenciatura","Presencial","Em atividade","CE","João Pessoa","Não","0113E01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "PSUC"){cursoSEL = ["PRODUÇÃO SUCROALCOOLEIRA","1127165","Tecnológico","Presencial","Em atividade","CTDR","Mangabeira","Não","0721P03", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
-    else if (cursoSEL == "PSLI"){cursoSEL = ["PSICOLOGIA","13413","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa","Sim","0313P01", "Campus I", "Não","Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
-    else if (cursoSEL == "PSBA"){cursoSEL = ["PSICOLOGIA","26565","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa","Não","0114P01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
+    else if (cursoSEL == "PSBA"){cursoSEL = ["PSICOLOGIA","13413","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa","Sim","0313P01", "Campus I", "Não","Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
+    else if (cursoSEL == "PSLI"){cursoSEL = ["PSICOLOGIA","26565","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa","Não(!)","0114P01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "PSPE"){cursoSEL = ["PSICOPEDAGOGIA","122926","Bacharelado","Presencial","Em atividade","CE","João Pessoa","Não","0111P02", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "QBAR"){cursoSEL = ["QUÍMICA","5000897","Bacharelado","Presencial","Em atividade","CCA","Areia","Sim","0531Q01", "Campus II", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
     else if (cursoSEL == "QBJP"){cursoSEL = ["QUÍMICA","313404","Bacharelado","Presencial","Em atividade","CCEN","João Pessoa","Sim","0531Q01", "Campus I", "Não","Sim","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
@@ -122,8 +122,8 @@ function confirmar(){
     else if (cursoSEL == "SEXB"){cursoSEL = ["SECRETARIADO EXECUTIVO - BILÍNGUE","98982","Bacharelado","Presencial","Em atividade","CCAE","Mamanguape","Sim","0415S01", "Campus IV", "Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "SSOC"){cursoSEL = ["SERVIÇO SOCIAL","13417","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa","Sim","0923S01", "Campus I", "Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
     else if (cursoSEL == "SINF"){cursoSEL = ["SISTEMAS DE INFORMAÇÃO","107360","Bacharelado","Presencial","Em atividade","CCAE","Rio Tinto","Sim","0615S02", "Campus IV", "Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
-    else if (cursoSEL == "TBAC"){cursoSEL = ["TEATRO","407456","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não","0215T01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
-    else if (cursoSEL == "TLIC"){cursoSEL = ["TEATRO","107456","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa","Não","0114T01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
+    else if (cursoSEL == "TBAC"){cursoSEL = ["TEATRO","407456","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não(!)","0215T01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
+    else if (cursoSEL == "TLIC"){cursoSEL = ["TEATRO","107456","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa","Não(!)","0114T01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "TOCU"){cursoSEL = ["TERAPIA OCUPACIONAL","1123330","Bacharelado","Presencial","Em atividade","CCS","João Pessoa","Não","0915T01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "TRAD"){cursoSEL = ["TRADUÇÃO","122930","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa","Não","0231L22", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "TURI"){cursoSEL = ["TURISMO","19562","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Sim","1015T01", "Campus I", "Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não"]}
@@ -141,29 +141,29 @@ function confirmar(){
     let participa ="";
     let registro = 
 
-        "O curso foi avaliado na edição Enade selecionada.<br>" + 
-        "Verifique se o(a) estudante estava habilitado para ser inscrito como concluinte " + 
+        "<p class='enquadramento'>O curso foi avaliado na edição Enade selecionada.</p><br>" + 
+        "<p class='registrar'>Verifique se o(a) estudante estava habilitado para ser inscrito como concluinte " + 
         "(conferir as condições de habilitação no edital da respectiva edição, período de inscrições e o calendário acadêmico da UFPB).<br>" +
         "Se o(a) estudante estava habilitado, verifique na plataforma Enade se foi inscrito e se consta no Relatório de Regularidade. " + 
-        "Em caso positivo, registre: <br>" +
+        "Em caso positivo, registre:</p>" +
         "<p class='registro'>Habilitado ao ENADE na edição :ano: com realização de prova em :data: e regularidade atribuída pelo INEP.<br></p>" +
         "<p class='registro'>Data da Prova/Regularização: (inserir a data da prova)</p>" +
-        "Mas, se o(a) estudante não estava habilitado por qualquer uma das razões previstas em edital, registrar:<br>" +
+        "<p class='registrar'>Mas, se o(a) estudante não estava habilitado por qualquer uma das razões previstas em edital, registrar:<p/>" +
         "<p class='registro'>Não habilitado ao ENADE na edição :ano: em razão do calendário do ciclo avaliativo. Registro em :data:.<br>" +
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>" +
-        "Se o(a) estudante estava habilitado mas não foi inscrito, assinar declaração de responsabilidade da IES no sistema ENADE e depois registrar:<br>" +
+        "<p class='registrar'>Se o(a) estudante estava habilitado mas não foi inscrito, assinar declaração de responsabilidade da IES no sistema ENADE e depois registrar:</p>" +
         "<p class='registro'>Regularidade do ENADE :ano: atribuída pelo INEP em :data:, após assinatura de Declaração de Responsabilidade da IES.<br>" +
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"
 
     let registro2 = 
 
-        "O curso não foi avaliado na edição Enade selecionada. <br>" +
-        "Neste caso, registrar:<br><p class='registro'>Não habilitado ao ENADE na edição :ano: em razão do calendário do ciclo avaliativo. Registro em :data:.<br></p>" +
+        "<p class='enquadramento'>O curso não foi avaliado na edição Enade selecionada.</p><br>" +
+        "<p class='registrar'>Neste caso, registrar:</p><p class='registro'>Não habilitado ao ENADE na edição :ano: em razão do calendário do ciclo avaliativo. Registro em :data:.<br></p>" +
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"
 
     let registro3 = 
 
-        "Registrar:<br>" + 
+        "<p class='enquadramento'>Registrar:</p>" + 
         "<p class='registro'>Não habilitado ao ENADE na edição :ano: em razão da natureza do Projeto Pedagógico do Curso. Registro em :data:.<br></p>"+
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"   
     
@@ -178,8 +178,9 @@ function confirmar(){
         enquad2 = "O curso selecionado não participa do Enade<br>"
         document.getElementById("enquad2").innerHTML = enquad2;
         participa = "Não"
+   
 
-         if (periodo == "2004.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
+     if (periodo == "2004.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2005.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;} 
@@ -398,21 +399,259 @@ function confirmar(){
     else if (periodo == "2024.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2024.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}   
+    else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     
-    document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao + "<hr>";
+    document.getElementById("edicao").innerHTML = "Edição enade ingressante: " + edicao +"<hr>";
 
-    document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + ` <div class="menu">
-    <a href="enade_ingressante.html">INGRESSANTE</a>
-    <a href="index.html">PÁG. INICIAL</a>`; 
-    
+    document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>"+ "<br>" + `<div class="menu">
+        <a href="enade_concluinte.html">CONCLUINTE</a>
+        <a href="enade_index.html">PÁG. INICIAL</a>
+        </div>`;
+
     document.getElementById("registro").innerHTML = registro3;
+    }
+    
+    else if(cursoSEL[7] == "Não(!)" && ["Campus I", "Campus II", "Campus III", "Campus IV", "NSA"].includes(cursoSEL[9]))
+    {
 
+    enquad2 = "O curso selecionado não é avaliado pelo Enade em razão do Projeto Pedagógico do Curso<br>Para registros anteriores a 2013, consultar a CRA<br>"
+    document.getElementById("enquad2").innerHTML = enquad2;
+    participa = "Não"
+    
+  if (periodo == "2004.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2005.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2006.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2006.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2007.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2008.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2008.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2009.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2009.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2010.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2010.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2011.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2011.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2012.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2012.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2013.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2013.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2014.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2014.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2015.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2015; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2015.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2016.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2016.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2017.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2017.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2018.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2018.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2019.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2019.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2020.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2020; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2020.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2021.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2021.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2022.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2022.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2023.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2023.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2024.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2024.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2025.1" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2025.2" && cursoSEL[9] == "Campus I" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2004.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2015; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2020; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.1" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.2" && cursoSEL[9] == "Campus II" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao ="0000";document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2015; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2020; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.1" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.2" && cursoSEL[9] == "Campus III" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2005.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2005.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2006.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
+    else if (periodo == "2006.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2007;  document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2007;  document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2009; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2010; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2011; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2012; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2013; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2014; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2015; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2016; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2017; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2018; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2019; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2020; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2021; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.1" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2005.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2006.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2008.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2009.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2010.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2011.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2012.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2013.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2014.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2015.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2016.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2017.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2018.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2019.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2020.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2021.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2022.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && participa == "Não"){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    
+    document.getElementById("edicao").innerHTML = "Edição enade ingressante: " + edicao +"<hr>" + "<br>";
+
+    document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + "<br>" + `<div class="menu">
+        <a href="enade_concluinte.html">CONCLUINTE</a>
+        <a href="enade_index.html">PÁG. INICIAL</a>
+        </div>`;
+
+    document.getElementById("registro").innerHTML = registro3;
     }
 
     else {
         
-    enquad2 = "O curso selecionado participa ou já participou do Enade<br>"
+    enquad2 = "O curso selecionado participa do Enade<br>"
     document.getElementById("enquad2").innerHTML = enquad2;
     document.getElementById("registro").innerHTML = registro3;
     participa = "Sim"
@@ -639,7 +878,7 @@ function confirmar(){
     else if (periodo == "2025.2" && cursoSEL[9] == "NSA"&& cursoSEL[31] == "Sim" && participa == "Sim"){edicao = 2025; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2025.2" && cursoSEL[9] == "NSA"&&cursoSEL[31]== "Não" && participa == "Sim"){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
 
     document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao + "<hr>";
-    document.getElementById("edicaoEnade").innerHTML = "Ano da Edição ENADE Concluinte: " + edicao+ "<hr>"  + ` <div class="menu">
+    document.getElementById("edicaoEnade").innerHTML = "Ano da Edição ENADE Concluinte: " + edicao + "<hr>"+ "<br>" +` <div class="menu">
     <a href="enade_ingressante.html">INGRESSANTE</a>
     <a href="index.html">PÁG. INICIAL</a>`; 
     }
