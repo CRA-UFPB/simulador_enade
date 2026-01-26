@@ -72,7 +72,7 @@ function confirmar(){
     else if (cursoSEL == "GAST"){cursoSEL = GAST = ["GASTRONOMIA","5001240","Bacharelado","Presencial","Em atividade","CTDR","Mangabeira","Não","1013G01", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "GEOB"){cursoSEL = GEOB = ["GEOGRAFIA","313406","Bacharelado","Presencial","Em atividade","CCEN","João Pessoa","Sim","0312G01", "Campus I", "Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não","Não"]}
     else if (cursoSEL == "GEOL"){cursoSEL = GEOL = ["GEOGRAFIA","13406","Licenciatura","Presencial","Em atividade","CCEN","João Pessoa","Sim","0114G01", "Campus I", "Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim","Sim"]}
-    else if (cursoSEL == "GPBA"){cursoSEL = GPBA = ["GESTÃO PÚBLICA","1363988","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Sim","0413G12", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim"]}
+    else if (cursoSEL == "GPBA"){cursoSEL = GPBA = ["GESTÃO PÚBLICA","1363988","Bacharelado","Presencial","Em atividade","CCSA","João Pessoa","Sim","0413G12", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
     else if (cursoSEL == "GPTE"){cursoSEL = GPTE = ["GESTÃO PÚBLICA","1125642","Tecnológico","Presencial","Em extinção","CCSA","João Pessoa","Sim","0413G12", "Campus I", "Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Não"]}
     else if (cursoSEL == "HIST"){cursoSEL = HIST = ["HISTÓRIA","13415","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa","Sim","0114H01", "Campus I", "Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Sim","Não","Não","Sim","Sim"]}
     else if (cursoSEL == "HOTE"){cursoSEL = HOTE = ["HOTELARIA","100220","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa","Não","1015H01", "Campus I", "Não","Não","Não","Não","Não","Sim","Não","Não","Sim","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não","Não"]}
@@ -883,4 +883,3 @@ function confirmar(){
     <a href="index.html">PÁG. INICIAL</a>`; 
     }
 }
-
