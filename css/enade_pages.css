@@ -1,12 +1,36 @@
+ :root {
+      --azul-900: #073b4c;
+      --azul-700: #0c5d73;
+      --azul-100: #e7f5f8;
+      --verde-700: #1f7a4d;
+      --verde-100: #e8f6ee;
+      --amarelo-500: #f2b84b;
+      --cinza-950: #172026;
+      --cinza-700: #4b5a63;
+      --cinza-300: #d8e0e5;
+      --cinza-100: #f4f7f9;
+      --branco: #ffffff;
+      --sombra: 0 18px 48px rgba(7, 59, 76, 0.14);
+      --raio: 8px;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+
 body{
-    color: white;
-    background-color:#354881;
+    color:;
+    /*background-color:#354881;*/
+
+
+    background: var(--azul-100);
+
+
+
     text-align: center;
     margin: 3% 15% 0% 15%; 
 }
 
 h1{
-    color:  rgb(235, 167, 20);
+    color: var(--azul-900);
 }
 #campussel{
     text-align: center;
