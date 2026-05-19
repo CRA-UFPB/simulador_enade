@@ -1,41 +1,158 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Simulador Enade</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/enade_index.css">  
-    </head>
-    <body>
-        <header>
-            <img src="img/cra_logo_.png" alt="Logotipo da CRA"/>         
-        </header>
-        <h1>SIMULADOR ENADE</h1>
-        <div class="boas_vindas">
-            <p id="boas_vindas">
-                Bem-vindo(a) ao Simulador Enade!<br><br>
-                Esta é uma versão beta da ferramenta desenvolvida para auxiliar no processo de registro da situação ENADE 
-                nos históricos acadêmicos de graduação da UFPB.<br>
-                As informações apresentadas são de caráter orientativo. 
-                Recomendamos cautela na interpretação dos resultados e a validação junto às normativas oficiais 
-                da universidade e do INEP.<br>
-                Em caso de dúvidas ou inconsistências, entre em contato com o setor responsável.<br>
-                Agradecemos sua compreensão e colaboração.<br>
-                Clique <a href="pdf/enade_manual.pdf">aqui</a> para acessar o manual de registro Enade. 
-            </p>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simulador Enade da CRA/UFPB para apoio ao registro da situação Enade no histórico acadêmico.">
+  <title>Simulador Enade | CRA/UFPB</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand" aria-label="Coordenação de Regulação e Avaliação da UFPB">
+        <div class="brand__mark" aria-hidden="true">CRA</div>
+        <div class="brand__text">
+          <strong>Coordenação de Regulação e Avaliação</strong>
+          <span>Pró-Reitoria de Graduação | UFPB</span>
         </div>
-        <h2>Qual registro deseja simular?</h2>
-        <div class="menu">
-        <a id="ing" href="enade_ingressante.html">INGRESSANTE</a>
-        <a id="conc" href="enade_concluinte.html">CONCLUINTE</a>  
+      </div>
+      <div class="contact" aria-label="Contatos da CRA">
+  	<span>(83) 3216-7279</span>
+  	<span aria-hidden="true">|</span>
+  	<span>cra@prg.ufpb.br</span>
+    </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="titulo">
+      <div class="hero__content">
+        <p class="eyebrow">Ferramenta de apoio ao registro acadêmico</p>
+        <h1 id="titulo">Simulador Enade</h1>
+        <p class="lead">
+          Consulte orientações para o registro da situação Enade no histórico acadêmico de graduação da UFPB. O simulador tem caráter orientativo e deve ser usado junto às normas oficiais da universidade e do Inep.
+        </p>
+        <div class="actions" aria-label="Escolha o tipo de registro para simular">
+          <a class="button" href="enade_ingressante.html">
+            <span class="button__icon" aria-hidden="true">↳</span>
+            Simular ingressante
+          </a>
+          <a class="button button--secondary" href="enade_concluinte.html">
+            <span class="button__icon" aria-hidden="true">✓</span>
+            Simular concluinte
+          </a>
         </div>
-            <footer>
-                <div class="footer">
-                <p id="footer">Coordenação de Regulação e Avaliação (CRA)<br>
-                    3216-7279 / cra@prg.ufpb.br
-                </p>
-                </div>
-            </footer>
-        </body>
+      </div>
+
+      <aside class="side-panel" aria-label="Informações importantes">
+        <div class="notice">
+          <strong>Atenção ao uso</strong>
+          <p>Valide o resultado com o edital vigente, a situação do estudante no Sistema Enade e as orientações internas da CRA antes de registrar no SIGAA.</p>
+        </div>
+        <div class="quick-card">
+          <strong>Manual de registro Enade</strong>
+          <p>Material de apoio da CRA com exemplos e situações recorrentes para registro no histórico acadêmico.</p>
+          <a href="https://cra-ufpb.github.io/simulador_enade/pdf/enade_manual.pdf">Abrir manual em PDF</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" aria-labelledby="como-usar">
+      <div class="section__header">
+        <div>
+          <h2 id="como-usar">Fluxo de conferência</h2>
+          <p>Antes de concluir o registro, confira estes pontos para reduzir retrabalho em processos de colação de grau e diplomas.</p>
+        </div>
+      </div>
+      <div class="status-grid">
+        <article class="status-card">
+          <span>1. Curso</span>
+          <h3>Verifique a edição aplicável</h3>
+          <p>Confirme se o curso foi avaliado na edição Enade correspondente ao ingresso ou à conclusão do estudante.</p>
+        </article>
+        <article class="status-card">
+          <span>2. Estudante</span>
+          <h3>Consulte a regularidade</h3>
+          <p>Use os relatórios e informações oficiais do Sistema Enade para identificar inscrição, dispensa, prova ou regularização.</p>
+        </article>
+        <article class="status-card">
+          <span>3. SIGAA</span>
+          <h3>Registre com a data correta</h3>
+          <p>Preencha data de prova ou regularização e ano da edição conforme o relatório oficial e a orientação normativa.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="normas">
+      <div class="section__header">
+        <div>
+          <h2 id="normas">Editais e portarias do Enade</h2>
+          <p>Links oficiais do Inep para consulta das normas vigentes e históricas. As páginas do Gov.br reúnem editais, retificações e portarias por edição.</p>
+        </div>
+      </div>
+      <div class="links-grid">
+        <article class="link-card">
+          <div>
+            <h3>Legislação Enade 2026</h3>
+            <p>Consulta oficial da edição 2026, com editais, portarias e atualizações publicadas pelo Inep.</p>
+          </div>
+          <a href="https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/enade/2026" target="_blank" rel="noopener noreferrer">Abrir no Inep</a>
+        </article>
+        <article class="link-card">
+          <div>
+            <h3>Legislação Enade 2025</h3>
+            <p>Edital nº 57/2025, portarias de diretrizes e demais documentos oficiais da edição.</p>
+          </div>
+          <a href="https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/enade/2025" target="_blank" rel="noopener noreferrer">Abrir no Inep</a>
+        </article>
+        <article class="link-card">
+          <div>
+            <h3>Legislação Enade 2024</h3>
+            <p>Edital nº 124/2024, Portaria nº 610/2024, Portaria nº 611/2024 e normas da edição das licenciaturas.</p>
+          </div>
+          <a href="https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/enade/2024" target="_blank" rel="noopener noreferrer">Abrir no Inep</a>
+        </article>
+        <article class="link-card">
+          <div>
+            <h3>Legislação completa</h3>
+            <p>Índice oficial de legislação do Enade, organizado por ano desde 2004.</p>
+          </div>
+          <a href="https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/enade/" target="_blank" rel="noopener noreferrer">Ver todos os anos</a>
+        </article>
+        <article class="link-card">
+          <div>
+            <h3>Sistema Enade</h3>
+            <p>Acesso ao ambiente usado por instituições e estudantes para procedimentos do exame.</p>
+          </div>
+          <a href="https://enade.inep.gov.br/" target="_blank" rel="noopener noreferrer">Acessar sistema</a>
+        </article>
+        <article class="link-card">
+          <div>
+            <h3>Perguntas frequentes</h3>
+            <p>Orientações gerais do Inep sobre obrigatoriedade, legislação e situações de regularidade.</p>
+          </div>
+          <a href="https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/exame-nacional-de-desempenho-dos-estudantes-enade" target="_blank" rel="noopener noreferrer">Consultar FAQ</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="support" aria-labelledby="atendimento">
+      <div>
+        <h2 id="atendimento">Dúvidas ou inconsistências</h2>
+        <p>Em casos não previstos pelo simulador, procure a CRA antes de finalizar o registro acadêmico.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__inner">
+      <span>Coordenação de Regulação e Avaliação (CRA/UFPB)</span>
+      <span>Ferramenta orientativa para apoio ao registro da situação Enade.</span>
+    </div>
+  </footer>
+</body>
 </html>
