@@ -411,7 +411,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     
-    document.getElementById("edicao").innerHTML = "Edição enade ingressante: " + edicao +"<hr>";
+    document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao +"<hr>";
 
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>"+ "<br>" + `<div class="menu">
         <a href="enade_concluinte.html">CONCLUINTE</a>
@@ -659,7 +659,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     
-    document.getElementById("edicao").innerHTML = "Edição enade ingressante: " + edicao +"<hr>" + "<br>";
+    document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao +"<hr>" + "<br>";
 
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + "<br>" + `<div class="menu">
         <a href="enade_concluinte.html">CONCLUINTE</a>
