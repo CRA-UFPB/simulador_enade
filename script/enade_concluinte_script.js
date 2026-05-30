@@ -186,7 +186,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2006.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2006.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2007.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2007.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2008.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2008.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2009.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
@@ -440,7 +440,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2006.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2006.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2007.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2007.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2007.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2007; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2008.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2008.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2009.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2008; document.getElementById("registro").innerHTML = registro3;}
