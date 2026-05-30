@@ -367,7 +367,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     /*O FRAGMENTO ACIMA FOI CORRIGIDO EM 30/06/2026 ÀS 10H32*/        
-        else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
