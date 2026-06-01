@@ -228,6 +228,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}    
+      
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
@@ -274,6 +275,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}    
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
@@ -320,6 +322,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}    
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
@@ -366,6 +369,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
@@ -475,8 +479,6 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus I" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     
-
-
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
@@ -523,6 +525,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus II" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}    
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2005; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2006; document.getElementById("registro").innerHTML = registro3;}
@@ -569,6 +572,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus III" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}    
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = "0000";document.getElementById("registro").innerHTML = registro3;} 
@@ -615,6 +619,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
+    
     else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2005.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
@@ -727,7 +732,6 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus I"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.1" && cursoSEL[9] == "Campus I"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus I"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.2" && cursoSEL[9] == "Campus I"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     
-    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus II"&& cursoSEL[10] == 1 && participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.1" && cursoSEL[9] == "Campus II"&&cursoSEL[10]== 0 && participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus II"&& cursoSEL[11] == 1 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.2" && cursoSEL[9] == "Campus II"&&cursoSEL[11]== 0 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus II"&& cursoSEL[11] == 1 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2005.1" && cursoSEL[9] == "Campus II"&&cursoSEL[11]== 0 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro2;}
@@ -774,7 +778,6 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus II"&& cursoSEL[31] == 1 && participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2025.2" && cursoSEL[9] == "Campus II"&&cursoSEL[31]== 0 && participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus II"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.1" && cursoSEL[9] == "Campus II"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus II"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.2" && cursoSEL[9] == "Campus II"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}    
-    
     
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus III"&& cursoSEL[10] == 1 && participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.1" && cursoSEL[9] == "Campus III"&&cursoSEL[10]== 0 && participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus III"&& cursoSEL[11] == 1 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.2" && cursoSEL[9] == "Campus III"&&cursoSEL[11]== 0 && participa == 1){edicao = 2005; document.getElementById("registro").innerHTML = registro2;}
@@ -823,7 +826,6 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus III"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.1" && cursoSEL[9] == "Campus III"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus III"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.2" && cursoSEL[9] == "Campus III"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     
-    
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV"&& cursoSEL[10] == 1 && participa == 1){edicao = "0000";document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV"&&cursoSEL[10]== 0 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV"&& cursoSEL[10] == 1 && participa == 1){edicao = "0000";document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV"&&cursoSEL[10]== 0 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2005.1" && cursoSEL[9] == "Campus IV"&& cursoSEL[11] == 1 && participa == 1){edicao = "0000";document.getElementById("registro").innerHTML = registro;}else if (periodo == "2005.1" && cursoSEL[9] == "Campus IV"&&cursoSEL[11]== 0 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
@@ -870,7 +872,6 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV"&& cursoSEL[31] == 1 && participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV"&&cursoSEL[31]== 0 && participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
-    
     
     else if (periodo == "2004.1" && cursoSEL[9] == "NSA"&& cursoSEL[10] == 1 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.1" && cursoSEL[9] == "NSA"&&cursoSEL[10]== 0 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "NSA"&& cursoSEL[10] == 1 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2004.2" && cursoSEL[9] == "NSA"&&cursoSEL[10]== 0 && participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
@@ -919,6 +920,8 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2026.1" && cursoSEL[9] == "NSA"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.1" && cursoSEL[9] == "NSA"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "NSA"&& cursoSEL[32] == 1 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}else if (periodo == "2026.2" && cursoSEL[9] == "NSA"&&cursoSEL[32]== 0 && participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
 
+    /*Correções realizadas no arquivo em 01/06/2026 - 11h47*/
+    
     document.getElementById("edicao").innerHTML = "Edição enade ingressante: " + edicao + "<hr>" + "<br>";
     document.getElementById("edicaoEnade").innerHTML = "Ano de ingresso: " + edicao + "<hr>" + "<br>" + `<div class="menu">
     <a href="enade_concluinte.html">CONCLUINTE</a>
