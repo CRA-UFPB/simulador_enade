@@ -659,16 +659,16 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2021.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2022.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2022.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2023.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2023.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2022; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2023.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2024.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2024.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2023; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2024.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
+    else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro3;}
     else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro3;}
     
-    /*O FRAGMENTO ACIMA FOI CORRIGIDO EM 30/06/2026 ÀS 10H52*/
+    /*O FRAGMENTO ACIMA FOI CORRIGIDO EM 01/06/2026 ÀS 14H45*/
         
     document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao +"<hr>" + "<br>";
 
