@@ -173,7 +173,7 @@ let registro4 =
 
         "<p class='enquadramento'>O curso foi avaliado na edição Enade selecionada.</p>" + 
         "<p class='registrar'>Verifique se o(a) estudante estava habilitado para ser inscrito como concluinte <br><br>" + 
-        "ATENÇÃO: Os estudantes concluintes que não colarem grau até 31 de agosto de 2026 são habilitados e devem ser inscritos na Avaliação Teórica. Conferir calendário acadêmico retificado e condições para bacharelados e licenciaturas.<br>" +
+        "ATENÇÃO: Os estudantes concluintes que não colarem grau até 31 de agosto de 2026 são habilitados e devem ser inscritos na Avaliação Teórica. Conferir calendário acadêmico retificado e condições para bacharelados e licenciaturas.<br><br>" +
         "Se o(a) estudante estava habilitado, verifique na plataforma Enade se foi inscrito e se consta no Relatório de Regularidade. " + 
         "Em caso positivo, registre:</p>" +
         "<p class='registro'>Habilitado ao ENADE na edição :ano: com realização de prova em :data: e regularidade atribuída pelo INEP.<br></p>" +
