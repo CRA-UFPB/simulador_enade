@@ -166,7 +166,28 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
         "<p class='enquadramento'>Registrar:</p>" + 
         "<p class='registro'>Não habilitado ao ENADE na edição :ano: em razão da natureza do Projeto Pedagógico do Curso. Registro em :data:.<br></p>"+
         "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"   
-    
+
+/*Abaixo registro exclusivo para o período 2026.1=========================================================================================================================================================*/
+
+let registro4 = 
+
+        "<p class='enquadramento'>O curso foi avaliado na edição Enade selecionada.</p>" + 
+        "<p class='registrar'>Verifique se o(a) estudante estava habilitado para ser inscrito como concluinte <br>" + 
+        "ATENÇÃO: Os estudantes concluintes que não colarem grau até 31 de agosto de 2026 são habilitados e devem ser inscritos na Avaliação Teórica. Conferir calendário acadêmico retificado e condições para bacharelados e licenciaturas.<br>" +
+        "Se o(a) estudante estava habilitado, verifique na plataforma Enade se foi inscrito e se consta no Relatório de Regularidade. " + 
+        "Em caso positivo, registre:</p>" +
+        "<p class='registro'>Habilitado ao ENADE na edição :ano: com realização de prova em :data: e regularidade atribuída pelo INEP.<br></p>" +
+        "<p class='registro'>Data da Prova/Regularização: (inserir a data da prova)</p>" +
+        "<p class='registrar'>Mas, se o(a) estudante não estava habilitado por qualquer uma das razões previstas em edital, registrar:<p/>" +
+        "<p class='registro'>Não habilitado ao ENADE na edição :ano: em razão do calendário do ciclo avaliativo. Registro em :data:.<br>" +
+        "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>" +
+        "<p class='registrar'>Se o(a) estudante estava habilitado mas não foi inscrito, assinar declaração de responsabilidade da IES no sistema ENADE e depois registrar:</p>" +
+        "<p class='registro'>Regularidade do ENADE :ano: atribuída pelo INEP em :data:, após assinatura de Declaração de Responsabilidade da IES.<br>" +
+        "<p class='registro'>Data da Prova/Regularização: (inserir a data em que o registro estiver sendo feito)</p>"
+
+/*Acima registro exclusivo para o período 2026.1=========================================================================================================================================================*/
+
+  
     document.getElementById("periodo").innerHTML = "<hr>" + "Período de conclusão selecionado: " + (periodoIng).value;
 
     if (cursoSEL[7] == 0 && cursoSEL[10] == 0 && cursoSEL[11] == 0 && cursoSEL[12] == 0 && cursoSEL[13] == 0 && 
@@ -731,10 +752,10 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2024.2" && cursoSEL[9] == "Campus I" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2024.2" && cursoSEL[9] == "Campus I" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.1" && cursoSEL[9] == "Campus I" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.1" && cursoSEL[9] == "Campus I" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus I" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.2" && cursoSEL[9] == "Campus I" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
+    else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 1){edicao = "Até 31/08: 2025; Após 31/08: 2026"; document.getElementById("registro").innerHTML = registro4;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.2" && cursoSEL[9] == "Campus I" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     
-    /*TRECHO ACIMA CORRIGIDO EM 30/05/2026 - 12H19*/
+    /*TRECHO ACIMA CORRIGIDO EM 09/06/2026 - 10h*/
     
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus II" && cursoSEL[10]&& participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.1" && cursoSEL[9] == "Campus II" && cursoSEL[10]&& participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus II" && cursoSEL[10]&& participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.2" && cursoSEL[9] == "Campus II" && cursoSEL[10]&& participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
@@ -780,10 +801,10 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2024.2" && cursoSEL[9] == "Campus II" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2024.2" && cursoSEL[9] == "Campus II" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.1" && cursoSEL[9] == "Campus II" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.1" && cursoSEL[9] == "Campus II" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus II" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.2" && cursoSEL[9] == "Campus II" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
+     else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 1){edicao = "Até 31/08: 2025; Após 31/08: 2026"; document.getElementById("registro").innerHTML = registro4;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.2" && cursoSEL[9] == "Campus II" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}    
 
-    /*TRECHO ACIMA CORRIGIDO EM 01/06/2026 - 07H14*/
+    /*TRECHO ACIMA CORRIGIDO EM 09/06/2026 - 10h*/
     
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus III" && cursoSEL[10]&& participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.1" && cursoSEL[9] == "Campus III" && cursoSEL[10]&& participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus III" && cursoSEL[10]&& participa == 1){edicao = 2004; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.2" && cursoSEL[9] == "Campus III" && cursoSEL[10]&& participa == 0){edicao = 2004; document.getElementById("registro").innerHTML = registro2;}
@@ -829,10 +850,10 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2024.2" && cursoSEL[9] == "Campus III" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2024.2" && cursoSEL[9] == "Campus III" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.1" && cursoSEL[9] == "Campus III" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.1" && cursoSEL[9] == "Campus III" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus III" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.2" && cursoSEL[9] == "Campus III" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
+     else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 1){edicao = "Até 31/08: 2025; Após 31/08: 2026"; document.getElementById("registro").innerHTML = registro4;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.2" && cursoSEL[9] == "Campus III" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
 
-    /*TRECHO ACIMA CORRIGIDO EM 01/06/2026 - 07H28*/
+    /*TRECHO ACIMA CORRIGIDO EM 09/06/2026 - 10h*/
         
     else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV" && cursoSEL[10]&& participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.1" && cursoSEL[9] == "Campus IV" && cursoSEL[10]&& participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV" && cursoSEL[10]&& participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.2" && cursoSEL[9] == "Campus IV" && cursoSEL[10]&& participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
@@ -878,10 +899,10 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2024.2" && cursoSEL[9] == "Campus IV" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2024.2" && cursoSEL[9] == "Campus IV" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.1" && cursoSEL[9] == "Campus IV" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.1" && cursoSEL[9] == "Campus IV" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.2" && cursoSEL[9] == "Campus IV" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
+     else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 1){edicao = "Até 31/08: 2025; Após 31/08: 2026"; document.getElementById("registro").innerHTML = registro4;}	else if (periodo == "2026.1" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.2" && cursoSEL[9] == "Campus IV" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
 
-    /*TRECHO ACIMA CORRIGIDO EM 01/06/2026 - 09H22*/
+    /*TRECHO ACIMA CORRIGIDO EM 09/06/2026 - 10h*/
         
     else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && cursoSEL[10]&& participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.1" && cursoSEL[9] == "NSA" && cursoSEL[10]&& participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && cursoSEL[10]&& participa == 1){edicao = "0000"; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2004.2" && cursoSEL[9] == "NSA" && cursoSEL[10]&& participa == 0){edicao = "0000"; document.getElementById("registro").innerHTML = registro2;}
@@ -927,10 +948,10 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
     else if (periodo == "2024.2" && cursoSEL[9] == "NSA" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2024.2" && cursoSEL[9] == "NSA" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && cursoSEL[30]&& participa == 1){edicao = 2024; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.1" && cursoSEL[9] == "NSA" && cursoSEL[30]&& participa == 0){edicao = 2024; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2025.2" && cursoSEL[9] == "NSA" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
-    else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && cursoSEL[31]&& participa == 1){edicao = 2025; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
+     else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && cursoSEL[32]&& participa == 1){edicao = "Até 31/08: 2025; Após 31/08: 2026"; document.getElementById("registro").innerHTML = registro4;}	else if (periodo == "2026.1" && cursoSEL[9] == "NSA" && cursoSEL[31]&& participa == 0){edicao = 2025; document.getElementById("registro").innerHTML = registro2;}
     else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && cursoSEL[32]&& participa == 1){edicao = 2026; document.getElementById("registro").innerHTML = registro;}	else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && cursoSEL[32]&& participa == 0){edicao = 2026; document.getElementById("registro").innerHTML = registro2;}
 
-    /*TRECHO ACIMA CORRIGIDO EM 01/06/2026 - 14H48*/
+    /*TRECHO ACIMA CORRIGIDO EM 09/06/2026 - 10h*/
         
     document.getElementById("edicao").innerHTML = "Edição enade concluinte: " + edicao + "<hr>";
     document.getElementById("edicaoEnade").innerHTML = "Ano da Edição ENADE Concluinte: " + edicao + "<hr>"+ "<br>" +` <div class="menu">
