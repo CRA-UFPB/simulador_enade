@@ -175,7 +175,7 @@ document.getElementById("enquad").innerHTML ="<hr>Curso selecionado:<br>"+cursoS
         cursoSEL[14] == 0 && cursoSEL[15] == 0 && cursoSEL[16] == 0 && cursoSEL[17] == 0 && cursoSEL[18] == 0 && 
         cursoSEL[19] == 0 && cursoSEL[20] == 0 && cursoSEL[21] == 0 && cursoSEL[22] == 0 && cursoSEL[23] == 0 && 
         cursoSEL[24] == 0 && cursoSEL[25] == 0 && cursoSEL[26] == 0 && cursoSEL[27] == 0 && cursoSEL[28] == 0 &&
-        cursoSEL[29] == 0 && cursoSEL[30] == 0 && ["Campus I", "Campus II", "Campus III", "Campus IV", "NSA"].includes(cursoSEL[9]))
+        cursoSEL[29] == 0 && cursoSEL[30] == 0 && cursoSEL[31] == 0 && cursoSEL[32] == 0 && ["Campus I", "Campus II", "Campus III", "Campus IV", "NSA"].includes(cursoSEL[9]))
     {
         enquad2 = "O curso selecionado não participa do Enade<br>"
         document.getElementById("enquad2").innerHTML = enquad2;
