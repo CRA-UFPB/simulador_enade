@@ -947,7 +947,7 @@ else if (periodo == "2026.2" && cursoSEL[9] == "NSA" && cursoSEL[32] == 1 && par
 /*corrigido em 10/06/2026 - 10h35*/
 
     document.getElementById("edicao").innerHTML = "Edição Enade concluinte: " + edicao + "<hr>";
-    document.getElementById("edicaoEnade").innerHTML = "Ano da Edição Enade Concluinte: " + edicao + "<hr>"+ "<br>" +` <div class="menu">
+    document.getElementById("edicaoEnade").innerHTML = "Edição Enade Concluinte: " + edicao + "<hr>"+ "<br>" +` <div class="menu">
     <a href="enade_ingressante.html">INGRESSANTE</a>
     <a href="index.html">PÁG. INICIAL</a>`; 
 
