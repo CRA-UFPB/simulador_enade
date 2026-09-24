@@ -40,7 +40,7 @@ function confirmar(){
     else if (cursoSEL == "CINE"){cursoSEL = CINE = ["CINEMA E AUDIOVISUAL","1166771","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa",0,"0211C01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "COMP"){cursoSEL = COMP = ["Computação ","1203266","Licenciatura","EAD","Em atividade","(EAD)","Diversos municípios",1,"0114C05","NSA",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1]}
     else if (cursoSEL == "CMDI"){cursoSEL = CMDI = ["COMUNICAÇÃO EM MÍDIAS DIGITAIS","1125641","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa",0,"0211P05","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
-    else if (cursoSEL == "DANC"){cursoSEL = DANC = ["DANÇA","1191007","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa",0,"0114D01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
+    else if (cursoSEL == "DANC"){cursoSEL = DANC = ["DANÇA","1191007","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa",1,"0114D01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
     else if (cursoSEL == "DESI"){cursoSEL = DESI = ["DESIGN","107352","Bacharelado","Presencial","Em atividade","CCAE","Rio Tinto",1,"0212D02","Campus IV",0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0]}
     else if (cursoSEL == "DIJP"){cursoSEL = DIJP = ["DIREITO","13398","Bacharelado","Presencial","Em atividade","CCJ","João Pessoa",1,"0421D01","Campus I",0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0]}
     else if (cursoSEL == "DISR"){cursoSEL = DISR = ["DIREITO","1110415","Bacharelado","Presencial","Em atividade","CCJ","Santa Rita",1,"0421D01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0]}
@@ -81,8 +81,8 @@ function confirmar(){
     else if (cursoSEL == "HOTE"){cursoSEL = HOTE = ["HOTELARIA","100220","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa",0,"1015H01","Campus I",0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "JOGD"){cursoSEL = JOGD = ["JOGOS DIGITAIS","1722890","Tecnológico","Presencial","Em atividade","CCHLA","João Pessoa",0,"0681J01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "JORN"){cursoSEL = JORN = ["JORNALISMO","1268219","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa",1,"0321J01","Campus I",0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0]}
-    else if (cursoSEL == "LELJ"){cursoSEL = LELJ = ["LETRAS - ESPANHOL","107553","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa",0,"0115L02","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
-    else if (cursoSEL == "LELE"){cursoSEL = LELE = ["Letras - Espanhol ","1261913","Licenciatura","EAD","Em atividade","(EAD)","Diversos municípios",0,"0115L02","NSA",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
+    else if (cursoSEL == "LELJ"){cursoSEL = LELJ = ["LETRAS - ESPANHOL","107553","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa",1,"0115L02","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
+    else if (cursoSEL == "LELE"){cursoSEL = LELE = ["Letras - Espanhol ","1261913","Licenciatura","EAD","Em atividade","(EAD)","Diversos municípios",1,"0115L02","NSA",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
     else if (cursoSEL == "LFLJ"){cursoSEL = LFLJ = ["LETRAS - FRANCÊS","107552","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa",0,"0115L03","Campus I",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "LILJ"){cursoSEL = LILJ = ["LETRAS - INGLÊS","107549","Licenciatura","Presencial","Em atividade","CCHLA","João Pessoa",1,"0115L04","Campus I",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1]}
     else if (cursoSEL == "LILE"){cursoSEL = LILE = ["Letras - Inglês","1261910","Licenciatura","EAD","Em atividade","(EAD)","Diversos municípios",1,"0115L04","NSA",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1]}
@@ -126,7 +126,7 @@ function confirmar(){
     else if (cursoSEL == "SEXB"){cursoSEL = SEXB = ["SECRETARIADO EXECUTIVO - BILÍNGUE","98982","Bacharelado","Presencial","Em atividade","CCAE","Mamanguape",1,"0415S01","Campus IV",0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0]}
     else if (cursoSEL == "SSOC"){cursoSEL = SSOC = ["SERVIÇO SOCIAL","13417","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa",1,"0923S01","Campus I",1,0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0]}
     else if (cursoSEL == "SINF"){cursoSEL = SINF = ["SISTEMAS DE INFORMAÇÃO","107360","Bacharelado","Presencial","Em atividade","CCAE","Rio Tinto",1,"0615S02","Campus IV",0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1]}
-    else if (cursoSEL == "TLIC"){cursoSEL = TLIC = ["TEATRO","107456","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa",0,"0114T01","Campus I",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
+    else if (cursoSEL == "TLIC"){cursoSEL = TLIC = ["TEATRO","107456","Licenciatura","Presencial","Em atividade","CCTA","João Pessoa",1,"0114T01","Campus I",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]}
     else if (cursoSEL == "TBAC"){cursoSEL = TBAC = ["TEATRO","407456","Bacharelado","Presencial","Em atividade","CCTA","João Pessoa",0,"0215T01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "TOCU"){cursoSEL = TOCU = ["TERAPIA OCUPACIONAL","1123330","Bacharelado","Presencial","Em atividade","CCS","João Pessoa",0,"0915T01","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
     else if (cursoSEL == "TRAD"){cursoSEL = TRAD = ["TRADUÇÃO","122930","Bacharelado","Presencial","Em atividade","CCHLA","João Pessoa",0,"0231L22","Campus I",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
